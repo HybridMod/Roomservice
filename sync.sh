@@ -2,19 +2,22 @@
 
 #Directories to be synced
 legacy(){
-  cd legacy
+  git clone https://github.com/HybridMod/Legacy
+  cd Legacy
   git pull
   cd ..
 }
 
 modules(){
-  cd modules
+  git clone https://github.com/HybridMod/Modules
+  cd Modules
   git pull
   cd ..
 }
 
 current(){
-  cd current
+  git clone https://github.com/HybridMod/Current
+  cd Current
   git pull
   cd ..
 }
