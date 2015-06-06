@@ -12,7 +12,7 @@ curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/rep
 chmod a+x ~/bin/repo
 mkdir -p ~/HybridMod
 cd ~/HybridMod
-repo init -u git://github.com/HybridMod/roomservice.gi
+repo init -u git://github.com/HybridMod/roomservice.git
 ```
 
 2. Add our local manifest
