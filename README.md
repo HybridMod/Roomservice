@@ -18,7 +18,7 @@ repo init -u git://github.com/HybridMod/roomservice.gi
 2. Add our local manifest
 
 ```bash
-curl --create-dirs -L -o .repo/local_manifests/default.xml -O -L https://raw.github.com/hybridmod/roomservice/manifest.xml
+curl --create-dirs -L -o .repo/local_manifests/default.xml -O -L https://raw.githubusercontent.com/HybridMod/roomservice/master/manifest.xml
 ```
 
 3. Download sources
