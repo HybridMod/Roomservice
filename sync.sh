@@ -1,7 +1,7 @@
 # Sync Script
 
 #variables
-setup=1
+setup=0
 
 function legacy(){
 if [ $setup == 1 ]; then
