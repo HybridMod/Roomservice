@@ -21,10 +21,10 @@ current(){
 
 #session behaviour
 cd ..
+
 #sync queue
-sync(){
-  legacy
-  modules
-  current
-} && sync
+legacy
+modules
+current
+
 clear
