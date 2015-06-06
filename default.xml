@@ -3,7 +3,7 @@
   <remote  name="github"
            fetch=".." />
 
-  <project name="HybridMod/Legacy" path="current" remote="github" revision="master" />
+  <project name="HybridMod/Legacy" path="legacy" remote="github" revision="master" />
   <project name="HybridMod/Modules" path="modules" remote="github" revision="master" />
-  <project name="HybridMod/Current" path="legacy" remote="github" revision="master" />
+  <project name="HybridMod/Current" path="current" remote="github" revision="master" />
 </manifest>
