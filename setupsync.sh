@@ -7,3 +7,7 @@ cd ..
 }" >> ~/.bash_aliases
 
 source ~/.bashrc
+
+clear
+
+cd ..
