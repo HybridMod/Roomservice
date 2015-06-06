@@ -3,6 +3,9 @@
 #variables
 setup=0
 
+clear
+cd ..
+
 #directories to be synced
 
 #Legacy
@@ -26,13 +29,5 @@ else
 cd Current
 git pull
 cd ..
-
-#session behaviour
-cd ..
-
-#sync queue
-legacy
-modules
-current
 
 clear
