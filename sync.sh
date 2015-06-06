@@ -1,33 +1,40 @@
 # Sync Script
 
 #variables
-setup=0
+setup=1
 
-clear
-cd ..
-
-#directories to be synced
-
-#Legacy
+function legacy(){
 if [ $setup == 1 ]; then
   git clone https://github.com/HybridMod/Legacy
-else
+fi
 cd Legacy
 git pull
 cd ..
-#Modules
+}
+
+function modules(){
 if [ $setup == 1 ]; then
   git clone https://github.com/HybridMod/Modules
-else
+fi
 cd Modules
 git pull
 cd ..
-#Current
+}
+
+function current(){
 if [ $setup == 1 ]; then
   git clone https://github.com/HybridMod/Current
-else
+fi
 cd Current
 git pull
 cd ..
+}
 
+#session behaviour
 clear
+cd ..
+
+#sync queue
+legacy
+modules
+current
