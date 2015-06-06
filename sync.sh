@@ -3,7 +3,6 @@
 #Variables
 setup=0
 
-
 #Directories to be synced
 legacy(){
   if [ $setup == 1 ]; then
