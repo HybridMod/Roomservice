@@ -6,7 +6,7 @@ setup=0
 
 #Directories to be synced
 legacy(){
-  if [ setup = 1 ]; then
+  if [ $setup = 1 ]; then
     git clone https://github.com/HybridMod/Legacy
   else
   
@@ -16,7 +16,7 @@ legacy(){
 }
 
 modules(){
-  if [ setup = 1 ]; then
+  if [ $setup = 1 ]; then
     git clone https://github.com/HybridMod/Modules
   else
   
@@ -26,7 +26,7 @@ modules(){
 }
 
 current(){
-  if [ setup = 1 ]; then
+  if [ $setup = 1 ]; then
     git clone https://github.com/HybridMod/Current
   else
   
