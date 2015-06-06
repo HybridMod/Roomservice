@@ -1,4 +1,4 @@
-# HybridMod sync script v1.0
+# Sync Script
 
 #Variables
 setup=0
@@ -9,9 +9,9 @@ legacy(){
     git clone https://github.com/HybridMod/Legacy
   else
   
-  cd Legacy
-  git pull
-  cd ..
+  # cd Legacy
+  # git pull
+  # cd ..
 }
 
 modules(){
@@ -19,9 +19,9 @@ modules(){
     git clone https://github.com/HybridMod/Modules
   else
   
-  cd Modules
-  git pull
-  cd ..
+  # cd Modules
+  # git pull
+  # cd ..
 }
 
 current(){
@@ -29,9 +29,9 @@ current(){
     git clone https://github.com/HybridMod/Current
   else
   
-  cd Current
-  git pull
-  cd ..
+  # cd Current
+  # git pull
+  # cd ..
 }
 
 #session behaviour
