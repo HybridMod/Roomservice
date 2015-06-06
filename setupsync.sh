@@ -1,10 +1,14 @@
 hmloc=~/HybridMod
 
-echo "function hmsync(){
+echo "
+
+function hmsync(){
 cd $hmloc/.roomservice/
 ./sync.sh
 cd ..
-}" >> ~/.bash_aliases
+}
+
+" >> ~/.bash_aliases
 
 source ~/.bashrc
 cd ..
