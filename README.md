@@ -5,6 +5,7 @@
 
 # Sync Initial Sources
 - nano ~/HybridMod/.roomservice/sync.sh
+
 Change setup=0 to setup =1
 
 CTRL + O && ENTER && CTRL + X
