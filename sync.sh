@@ -8,7 +8,7 @@ if [ $setup == 1 ]; then
   git clone https://github.com/HybridMod/Legacy
 fi
 cd Legacy
-git pull
+echo -n "Legacy: " && git pull
 cd ..
 }
 
@@ -17,7 +17,7 @@ if [ $setup == 1 ]; then
   git clone https://github.com/HybridMod/Modules
 fi
 cd Modules
-git pull
+echo -n "Modules: " && git pull
 cd ..
 }
 
@@ -26,7 +26,7 @@ if [ $setup == 1 ]; then
   git clone https://github.com/HybridMod/Current
 fi
 cd Current
-git pull
+echo -n "Current: " && git pull
 cd ..
 }
 
