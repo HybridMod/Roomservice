@@ -6,4 +6,5 @@
   <project name="HybridMod/Legacy" path="legacy" remote="github" revision="master" />
   <project name="HybridMod/Modules" path="modules" remote="github" revision="master" />
   <project name="HybridMod/Current" path="current" remote="github" revision="master" />
+  <project name="HybridMod/Release" path="current" remote="github" revision="master" />
 </manifest>
