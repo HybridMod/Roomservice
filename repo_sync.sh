@@ -32,5 +32,4 @@ sync(){
 }
 
 #session_behaviour
-options && tracking
 remove && sync
