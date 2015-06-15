@@ -5,6 +5,7 @@ current=https://github.com/HybridMod/Current
 modules=https://github.com/HybridMod/Modules
 legacy=https://github.com/HybridMod/Legacy
 release=https://github.com/HybridMod/Release
+fileserver=https://github.com/HybridMod/fileserver
 roomservice=https://github.com/HybridMod/roomservice
 
 #functions
@@ -18,6 +19,7 @@ remove(){
 	rm -rf Modules
 	rm -rf Legacy
 	rm -rf Release
+	rm -rf fileserver
 }
 
 sync(){
@@ -26,7 +28,7 @@ sync(){
 	git clone $modules
 	git clone $legacy
 	git clone $release
-	# git clone $roomservice
+	git clone $fileserver
 }
 
 #session_behaviour
