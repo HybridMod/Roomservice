@@ -10,11 +10,11 @@ roomservice=https://github.com/HybridMod/roomservice
 
 #functions
 makedirs(){
-	mkdir -p ~/Scripts/HybridMod
+	mkdir -p ~/android/scripts/HybridMod/
 }
 
 remove(){
-	cd ~/Scripts/HybridMod/
+	cd ~/android/scripts/HybridMod/
 	rm -rf Current
 	rm -rf Modules
 	rm -rf Legacy
@@ -23,7 +23,7 @@ remove(){
 }
 
 sync(){
-	cd ~/Scripts/HybridMod/
+	cd ~/android/scripts/HybridMod/
 	git clone $current
 	git clone $modules
 	git clone $legacy
