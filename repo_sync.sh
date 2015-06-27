@@ -2,7 +2,6 @@
 
 #tracking
 current=https://github.com/HybridMod/Current
-currentstaging=https://github.com/HybridMod/Current
 modules=https://github.com/HybridMod/Modules
 legacy=https://github.com/HybridMod/Legacy
 release=https://github.com/HybridMod/Release
@@ -17,7 +16,6 @@ makedirs(){
 remove(){
 	cd ~/android/scripts/HybridMod/
 	rm -rf Current
-	rm -rf Current-Staging
 	rm -rf Modules
 	rm -rf Legacy
 	rm -rf Release
@@ -27,7 +25,6 @@ remove(){
 sync(){
 	cd ~/android/scripts/HybridMod/
 	git clone $current
-	git clone $currentstaging -b staging Current-Staging
 	git clone $modules
 	git clone $legacy
 	git clone $release
